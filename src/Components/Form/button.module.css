@@ -1,0 +1,26 @@
+.button {
+  border-width: 0px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  /* background-color: #1877f2; */
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.blue {
+  background-color: #1877f2;
+}
+.green {
+  background-color: #42b72a;
+}
+.full {
+  width: 100%;
+}
+
+.fit {
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}

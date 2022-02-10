@@ -1,0 +1,8 @@
+.form {
+  border: 0.5px solid gainsboro;
+  width: 95%;
+  padding: 15px 0px 15px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: medium;
+}
