@@ -27,14 +27,20 @@ const Login = (props) => {
     event.preventDefault();
     setNewAccount(true);
   };
-  const bdropClickHandler = (event) => {
+  const bdropClickHandler = () => {
     setNewAccount(false);
+  };
+  const signUp = (newName, newEmail, newPassword) => {
+    setNewAccount(false);
+    console.log(newName + " added to database");
   };
 
   return (
     <div className={styles.login}>
       {newAccount === true && <Backdrop onClick={bdropClickHandler} />}
-      {newAccount === true && <SignUp />}
+      {newAccount === true && (
+        <SignUp signUp={signUp} clickBackdrop={bdropClickHandler} />
+      )}
       <div className={styles.left}>
         <p className={styles.logo}>facebook</p>
         <p className={styles.subheading}>
@@ -47,7 +53,7 @@ const Login = (props) => {
           <FormInput
             type={"email"}
             placeholder="Email address"
-            name="fname"
+            name="email"
             onChange={onTypeHandler}
             value={email}
           />

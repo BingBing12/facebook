@@ -5,4 +5,21 @@
   transform: translate(-50%, -50%);
   z-index: 30;
   padding: 0;
+  color: grey;
+}
+.hr {
+  margin-bottom: 15px;
+}
+.exit {
+  cursor: pointer;
+  position: absolute;
+  font-size: 30px;
+  top: -15px;
+  right: 30px;
+}
+.heading {
+  margin: -15px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
 }
