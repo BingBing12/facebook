@@ -1,0 +1,15 @@
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}

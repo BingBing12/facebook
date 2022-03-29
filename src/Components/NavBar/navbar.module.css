@@ -1,0 +1,14 @@
+.navbar {
+  flex-grow: 1;
+  border: 1px solid red;
+}
+.navbar div {
+  padding: 5px;
+}
+.navbar_mid {
+  flex-grow: 5;
+  border: 1px solid red;
+}
+.navbar_mid div {
+  padding: 5px;
+}
