@@ -1,6 +1,7 @@
 .navbar {
   flex-grow: 1;
   border: 1px solid red;
+  background-color: white;
 }
 .navbar div {
   padding: 5px;
@@ -8,7 +9,14 @@
 .navbar_mid {
   flex-grow: 5;
   border: 1px solid red;
+  background-color: white;
 }
 .navbar_mid div {
   padding: 5px;
+}
+.logo {
+  color: #1877f2;
+}
+.search {
+  width: 70%;
 }
