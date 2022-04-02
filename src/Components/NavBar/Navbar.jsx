@@ -19,26 +19,47 @@ const Navbar = () => {
           <div className={styles.logo}>
             <FontAwesomeIcon size="2x" icon={brands("facebook")} />
           </div>
+          <span className={styles.sIcon}>
+            <FontAwesomeIcon icon={solid("magnifying-glass")} />
+          </span>
           <div className={styles.search}>
-            <Search />
+            <Search placeholder="Search Facebook" />
           </div>
         </Flex_start>
       </div>
       <div className={styles.navbar_mid}>
         <Flex_mid>
-          <div>Home</div>
-          <div>Watch</div>
-          <div>Marketplace</div>
-          <div>Gaming</div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("house")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("tv")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("store")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("headset")} />
+          </div>
         </Flex_mid>
       </div>
-      <div className={styles.navbar}>
+      <div className={styles.navbar_right}>
         <Flex_end>
-          <div>Profile</div>
-          <div>Menu</div>
-          <div>Messenger</div>
-          <div>Notifications</div>
-          <div>Account</div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("user")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("compass")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={brands("facebook-messenger")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("bell")} />
+          </div>
+          <div>
+            <FontAwesomeIcon size="lg" icon={solid("caret-down")} />
+          </div>
         </Flex_end>
       </div>
     </Flex_start>
